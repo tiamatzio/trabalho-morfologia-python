@@ -1,1 +1,4 @@
-# trabalho-morfologia-python
+O código em questão realiza operações do processo morfológico em imagens com a biblioteca OpenCV. São carregadas 3 imagens em escala cinza. Então, é obtida a altura e largura da imagem 'j.png'. Um kernel de tamanho 5x5 com valores 1 é criado com a biblioteca numpy.
+E então, são executadas a erosão e dilatação a imagem 'j.png', utilizando o kernel. O gradiente morfológico, a abertura e fechamento são aplicados as três imagens, usando o kernel.
+Dependendo de onde o código for executado, podendo ser no próprio computador ou google colab, as imagens são mostradas diretamente no notebook, com a função 'cv2_imgshow', enquanto em um ambiente local são exibidas em janelas separadas pela mesma função.
+Essas operações tem como objetivo realçar características, remover ruídos e corrigir as imagens. O resultado final depende das imagens, kernel e dos parâmetros apresentados para cada operação.
